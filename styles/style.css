@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-principal: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD;
+    --cor-hover: #272727;
+
+    --font-principal: "Krona One", sans-serif;
+    --font-secundaria: "Montserrat", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+}
+
+.cabecalho {
+    padding: 2% 0 0% 15%;
+}
+
+.menu {
+    display: flex;
+    gap: 80px;
+}
+
+.menu__link {
+    color: var(--cor-terciaria);
+    font-family: var(--font-secundaria);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.site__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 15%;
+}
+
+.site__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.site__titulo {
+    font-family: var(--font-principal);
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.titulo-destaque {
+    color: var(--cor-terciaria);
+}
+
+.site_texto {
+    font-size: 24px;
+    font-family: var(--font-secundaria);
+    font-weight: 200;
+    line-height: 36px;
+}
+
+.site__links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.site__links i {
+    color: var(--cor-terciaria);
+}
+
+
+.links__subtitulo {
+    font-family: var(--font-principal);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+
+.site__btn {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-terciaria);
+    width: 378px;
+    padding: 21.5px 0;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--font-secundaria);
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.site__btn:hover {
+    background-color: var(--cor-hover);
+    color: var(--cor-secundaria);
+}
+
+.rodape {
+    color: var(--cor-principal);
+    background-color: var(--cor-terciaria);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--font-secundaria);
+    font-size: 24px;
+    font-weight: 400;
+}

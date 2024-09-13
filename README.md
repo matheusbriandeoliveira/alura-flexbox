@@ -3,7 +3,7 @@
  Joana Santos
  </h1>
 
-<h1>➡ <a href="https://alurabook-theta-eight.vercel.app">Clica aqui para ver o site</a></h1>
+<h1>➡ <a href="https://alura-flexbox-puce.vercel.app">Clica aqui para ver o site</a></h1>
 
 ## Sobre o projeto
 

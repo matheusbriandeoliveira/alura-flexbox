@@ -1,7 +1,7 @@
 <h1 align= "center">
 
-AluraBooks - Livraria Online
-</h1>
+ Joana Santos
+ </h1>
 
 <h1>➡ <a href="https://alurabook-theta-eight.vercel.app">Clica aqui para ver o site</a></h1>
 
